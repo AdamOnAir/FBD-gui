@@ -13,6 +13,9 @@ I recently discoverd Raylib, and I, as a C developer, decided I'll create a port
 No. I don't recommend it, I only made it for my friend(I created FBD back in school with her.)
 Even in the [CMakeLists.txt](../CMakeLists.txt) I used my local config for Raylib source.
 
+Also, the essence of FBD itself is in the terminal. In the cli version of FBD, there are easter egss and additionnal features.
+Here, you can only read jokes, that's it.
+
 ## Compile and Run
 
 Compile with GCC:
