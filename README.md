@@ -22,7 +22,7 @@ Compile with GCC:
 ```
 git clone https://github.com/FBDev64/FBD-gui.git
 cd FBD-gui
-gcc -o fbd-gui main.c
+gcc -o fbd-gui main.c shell.c -lraylib -lGL -lm -lpthread -ldl -lrt -lX11
 ```
 
 Compile with CMake:
