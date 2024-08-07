@@ -45,7 +45,7 @@ void runShell(void) {
                 } else if (strcmp(input, "joke") == 0) {
                     joke();
                     strcpy(output, puns[rand() % (sizeof(puns) / sizeof(char *))]);
-                } else if (strcmp(input, "quit") == 0) {
+                } else if (strcmp(input, "exit") == 0) {
                     CloseWindow();
                 } else {
                     strcpy(output, "Unknown command. Type 'help' for a list of commands.");

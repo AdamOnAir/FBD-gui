@@ -5,7 +5,7 @@
 int main(void) {
     // Initialization
 
-    const int screenWidth = 800;
+    const int screenWidth = 1000;
     const int screenHeight = 450;
 
     InitWindow(screenWidth, screenHeight, "FBD - Raylib");

@@ -25,15 +25,6 @@ cd FBD-gui
 gcc -o fbd-gui main.c shell.c -lraylib -lGL -lm -lpthread -ldl -lrt -lX11
 ```
 
-Compile with CMake:
-```
-git clone https://github.com/FBDev64/FBD-gui.git
-cd FBD-gui
-mkdir build && cd build
-cmake ..
-make
-```
-
 Precompiled MS Windows executabes can be downloaded from [the Releases section.](https://github.com/FBDev64/FBD-gui/releases)
 
 ## Contributing
