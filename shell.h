@@ -41,7 +41,7 @@ void runShell(void) {
 
             if (IsKeyPressed(KEY_ENTER)) {
                 if (strcmp(input, "help") == 0) {
-                    strcpy(output, "Available commands: help, joke, quit");
+                    strcpy(output, "Available commands: help, joke, exit");
                 } else if (strcmp(input, "joke") == 0) {
                     joke();
                     strcpy(output, puns[rand() % (sizeof(puns) / sizeof(char *))]);
@@ -60,7 +60,7 @@ void runShell(void) {
         ClearBackground(RAYWHITE);
         DrawRectangleRec(textBox, LIGHTGRAY);
         DrawRectangleLines((int)textBox.x, (int)textBox.y, (int)textBox.width, (int)textBox.height, DARKGRAY);
-        DrawText(input, (int)textBox.x + 5, (int)textBox.y + 8, 40, MAROON);
+        DrawText(input, (int)textBox.x + 5, (int)textBox.y + 8, 40, BLACK);
         DrawText("Enter a command:", 240, 140, 20, DARKGRAY);
         DrawText(output, 200, 240, 20, DARKGRAY);
         EndDrawing();
