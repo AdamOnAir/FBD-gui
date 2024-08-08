@@ -1,3 +1,0 @@
-C:/Users/Adam/dev/FBD-gui/cmake-build-debug/CMakeFiles/FBD_gui.dir
-C:/Users/Adam/dev/FBD-gui/cmake-build-debug/CMakeFiles/edit_cache.dir
-C:/Users/Adam/dev/FBD-gui/cmake-build-debug/CMakeFiles/rebuild_cache.dir
