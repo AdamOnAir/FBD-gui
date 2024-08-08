@@ -1,5 +1,5 @@
-﻿#include "include/raylib.h"
-#include "include/shell.h"
+﻿#include "../include/shell.h"
+#include "../include/raylib.h"
 
 // Program main entry point
 int main(void) {
