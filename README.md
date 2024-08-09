@@ -22,10 +22,10 @@ Compile with GCC:
 ```
 git clone https://github.com/FBDev64/FBD-gui.git
 cd FBD-gui
-gcc -o fbd-gui main.c shell.c -lraylib -lGL -lm -lpthread -ldl -lrt -lX11
+gcc -o fbd-gui main.c include/shell.h -lraylib -lGL -lm -lpthread -ldl -lrt -lX11
 ```
 
-Precompiled MS Windows executabes can be downloaded from [the Releases section.](https://github.com/FBDev64/FBD-gui/releases)
+I struggle compiling for MS Windows, so no precompiled executable.
 
 ## Contributing
 
